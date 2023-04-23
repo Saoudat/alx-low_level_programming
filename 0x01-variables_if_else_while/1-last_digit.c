@@ -11,7 +11,7 @@ int x;
 int y;
 srand(time(0));
 x = rand() - RAND_MAX / 2;
-y = x % 10;
+y = x % 100;
 if (x > 5)
 {
 printf("the last gigit of %d is %d and is greater than 5\n", x, y);
