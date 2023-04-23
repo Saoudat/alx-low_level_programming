@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - put entry
+ * main - entry
  * Return: always 0
  */
 int main(void)
