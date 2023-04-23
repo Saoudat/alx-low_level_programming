@@ -9,7 +9,6 @@ int main(void)
 {
 int n;
 srand(time(0));
-n = random(100);
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
