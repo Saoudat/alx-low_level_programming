@@ -6,7 +6,7 @@
  * Return: always 0
 */
 int main(void)
-extern long int random(void) __THROW;
+long int random(void) __THROW;
 {
 int n;
 srand(time(0));
