@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print if the number is positive,negative or 0
+ * main - prints number positive,negative or 0
  * Return: always 0
 */
 int main(void)
+extern long int random(void) __THROW;
 {
 int n;
 srand(time(0));
