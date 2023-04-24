@@ -11,7 +11,7 @@ int main(void)
 {
 
 char la;
-for (la = 'a'; la <= 'Z'; la++)
+for (la = 'a'; la <= 'z'; la++)
 
 
 {
@@ -25,6 +25,7 @@ putchar(la);
 
 
 putchar('\n');
+
 return (0);
 
 
