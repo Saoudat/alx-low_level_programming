@@ -6,7 +6,7 @@
  *
  * Return: 1 if character is a letter, 0 otherwise
  */
-int _isalphabet(int c)
+int _isalphabet(char c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 return (1);
